@@ -1,0 +1,31 @@
+[branch]
+    sort = -committerdate
+[column]
+    ui = auto
+[commit]
+    verbose = true
+[diff]
+    algorithm = histogram
+    colorMoved = plain
+    mnemonicprefix = true
+    renames = true
+[init]
+    defaultbranch = main
+; [maintenance]
+;     repo = /home/jole/.dotfiles
+;     repo = /home/jole/code/arch
+;     repo = /home/jole/code/reditus/intern
+[pull]
+    rebase = false
+[push]
+    default = simple
+    autoSetupRemote = true
+    followTags = true
+[rerere]
+    enabled = true
+    autoupdate = true
+[tag]
+    sort = version:refname
+[user]
+    name = Jonas Weber
+    email = jonas@nerdgeschoss.de
