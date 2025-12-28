@@ -7,6 +7,7 @@ Required:
 
 JetBrainsMono Nerd Font
 
+stow
 git
 alacritty
 zathura
